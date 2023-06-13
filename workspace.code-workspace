@@ -1,0 +1,33 @@
+{
+    "folders": [
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "畢業祝福 - Demo",
+        "liveSassCompile.settings.formats": [{
+                // 一般形式
+                "format": "expanded",
+                "extensionName": ".css",
+                "savePath": "/style"
+            },
+            {
+                // 壓縮的
+                "format": "compressed",
+                "extensionName": ".min.css",
+                "savePath": "/dist/style"
+            }
+        ],
+        "liveSassCompile.settings.excludeList": [
+
+
+            "**/node_modules/**",
+            ".vscode/**"
+        ],
+        //   generateMap是為了CSS跟SASS做對應行數 可以改false
+        "liveSassCompile.settings.generateMap": false,
+        "liveSassCompile.settings.autoprefix": [],
+        "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+    }
+}
